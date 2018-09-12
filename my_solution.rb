@@ -123,8 +123,11 @@ users = {
 
 
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
-p users ["Erik"][:lottery_numbers].push(7)
+# p users ["Erik"][:lottery_numbers].push(7)
 
 # Change Erik's hometown to Edinburgh
+p users ["Erik"][:home_town] = "Edinburgh"
+
+
 # Add a pet dog to Erik called "Fluffy"
 # Add another person to the users hash
