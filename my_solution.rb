@@ -16,9 +16,10 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # stops.delete("Livingston")
 
 # Delete "Cumbernauld" from the array by index
-stops.delete_at(1)
+# stops.delete_at(1)
 
 # How many stops there are in the array?
+stops.length
 
 # How many ways can we return "Falkirk High" from the array?
 
