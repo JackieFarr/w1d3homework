@@ -13,6 +13,7 @@ stops.insert(4, "Polmont")
 stops.index("Linlithgow")
 
 # Remove "Livingston" from the array using its name
+stops.delete("Livingston")
 
 # Delete "Cumbernauld" from the array by index
 
