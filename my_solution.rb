@@ -1,21 +1,22 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 # Add "Edinburgh Waverley" to the end of the array
-stops.push("Edinburgh Waverley")
+# stops.push("Edinburgh Waverley")
 
 # Add "Glasgow Queen St" to the start of the array
-stops.insert(0, "Glasgow Queen St")
+# stops.insert(0, "Glasgow Queen St")
 
 # Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
-stops.insert(4, "Polmont")
+# stops.insert(4, "Polmont")
 
 # Work out the index position of "Linlithgow"
-stops.index("Linlithgow")
+# stops.index("Linlithgow")
 
 # Remove "Livingston" from the array using its name
-stops.delete("Livingston")
+# stops.delete("Livingston")
 
 # Delete "Cumbernauld" from the array by index
+stops.delete_at(1)
 
 # How many stops there are in the array?
 
