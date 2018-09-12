@@ -130,7 +130,14 @@ users = {
 
 
 # Add a pet dog to Erik called "Fluffy"
-p users["Erik"][:pets].push(:dog, "Fluffy")
+# p users["Erik"][:pets].push(:dog, "Fluffy")
 
 
 # Add another person to the users hash
+users["Jackie"] = {
+  :twitter => "jackie_farr",
+  :lottery_numbers => [1, 6, 49, 8, 4, 2],
+  :home_town => "Edinburgh"
+
+}
+p users["Jackie"]
