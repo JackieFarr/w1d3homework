@@ -134,10 +134,39 @@ users = {
 
 
 # Add another person to the users hash
-users["Jackie"] = {
-  :twitter => "jackie_farr",
-  :lottery_numbers => [1, 6, 49, 8, 4, 2],
-  :home_town => "Edinburgh"
+# users["Jackie"] = {
+#   :twitter => "jackie_farr",
+#   :lottery_numbers => [1, 6, 49, 8, 4, 2],
+#   :home_town => "Edinburgh"
+#
+# }
+# p users
 
-}
-p users["Jackie"]
+## EXERCISE C ##
+
+united_kingdom = [
+  {
+    name: "Scotland",
+    population: 5295000,
+    capital: "Edinburgh"
+  },
+  {
+    name: "Wales",
+    population: 3063000,
+    capital: "Swansea"
+  },
+  {
+    name: "England",
+    population: 53010000,
+    capital: "London"
+  }
+]
+# Complete these tasks:
+# Change the capital of Wales from "Swansea" to "Cardiff".
+p united_kingdom[1][:capital] = "cardiff"
+p united_kingdom
+
+
+# Create a Hash for Northern Ireland and add it to the united_kingdom array (The capital is Belfast, and the population is 1,811,000).
+# Use a loop to print the names of all the countries in the UK.
+# Use a loop to find the total population of the UK.
