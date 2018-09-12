@@ -26,6 +26,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # p stops[2]
 
 # Reverse the positions of the stops in the array
+p stops.reverse
 
 # Print out all the stops using a for loop
 # p stops
