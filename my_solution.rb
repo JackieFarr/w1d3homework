@@ -111,11 +111,14 @@ users = {
 
 # Return an array of Avril's lottery numbers that are even
 lottery_numbers = users ["Avril"][:lottery_numbers]
+evens = []
   for number in lottery_numbers
     if number % 2 == 0
-      p number
+      evens.push(number)
     end
   end
+
+  p evens
 #
 
 
