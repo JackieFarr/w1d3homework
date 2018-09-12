@@ -110,19 +110,21 @@ users = {
 # p users ["Erik"][:lottery_numbers].sort.first
 
 # Return an array of Avril's lottery numbers that are even
-lottery_numbers = users ["Avril"][:lottery_numbers]
-evens = []
-  for number in lottery_numbers
-    if number % 2 == 0
-      evens.push(number)
-    end
-  end
-
-  p evens
+# lottery_numbers = users ["Avril"][:lottery_numbers]
+# evens = []
+#   for number in lottery_numbers
+#     if number % 2 == 0
+#       evens.push(number)
+#     end
+#   end
+#
+#   p evens
 #
 
 
 # Erik is one lottery number short! Add the number 7 to be included in his lottery numbers
+p users ["Erik"][:lottery_numbers].push(7)
+
 # Change Erik's hometown to Edinburgh
 # Add a pet dog to Erik called "Fluffy"
 # Add another person to the users hash
